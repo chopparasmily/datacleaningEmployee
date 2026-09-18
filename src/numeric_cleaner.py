@@ -10,7 +10,11 @@ def money_to_number(value):
     value=str(value).strip().lower().replace(",","").replace("₹","").replace("$","")
     if value in ["","unknown","null","nan","none"]:
         return pd.NA
-
+# -?       \d+       (?:\.\d+)?
+# │         │             │
+# │         │             └── optional decimal part
+# │         └── one or more digits
+# └── optional minus sign
     match=re.search(r"-?\d+(?:\.\d+)?",value)
     if not match:
         return pd.NA
