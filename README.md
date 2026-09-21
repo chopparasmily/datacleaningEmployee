@@ -2039,13 +2039,13 @@ Possible future improvements include:
 
 # Author
 
-## RaviVarma Yalla
+## Choppara Smily
 
-Masters in Computer Science
+Bachelors of Information Technology
 
 GitHub:
 
-https://github.com/varma5359
+https://github.com/chopparasmily
 
 ---
 
